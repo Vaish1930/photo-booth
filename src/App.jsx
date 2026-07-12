@@ -14,10 +14,9 @@ function App() {
     >
       <PrimaryButton
         text="Start a Book"
+        type="accent"
         hoverTransition={true}
-        onClick={() => {
-          console.log("Jhulo mere neeche");
-        }}
+        onClick={() => alert("Jhulo mere neeche")}
       />
     </div>
   );
