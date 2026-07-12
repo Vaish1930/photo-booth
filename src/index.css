@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-accent: #d7462f;
+
+  /* fonts */
+  --font-regular: "Caveat";
+  --font-text: "Bricolage Grotesque";
+
+  /* transitions and animations*/
+  --transition-btn: transform 0.15s, box-shadow 0.15s;
+
+  /* shadow */
+  --shadow-btn-accented: 0 12px 26px -10px var(--accent);
+
+  /* border */
+  --border-btn-normal: 1.5px solid #2b262221;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
